@@ -1,0 +1,97 @@
+body {
+  background-color: #dad7d7d6;
+}
+
+h1 {
+  text-align: center;
+  color: #00205b;
+}
+
+h2 {
+  font-size: 13px;
+  color: aliceblue;
+  background:#00205b;
+  height: 25px;
+  width: 120px;
+  text-align: center;
+  margin-top:25px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top:25px;
+}
+
+h4 {
+  color: #3f4145;
+  padding-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+/* 假设父元素需要相对定位 */
+body {
+  position: relative;
+}
+
+.zz {
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  gap: 10px; 
+  padding: 16px;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  text-align: center;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+h3 a:visited {
+  color: black;  
+}
+
+h3 a:link {
+  color: black;
+}
+
+.za {
+  position: relative;
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  gap: 20px; 
+  padding: 16px;
+  width: 80%;
+  left: 10%;
+  top:120px;
+  text-align: center;
+}
+
+.goooo{
+  position: relative;
+  overflow: hidden;
+}
+.mmo{
+  position: absolute;
+  background-color: rgba(0,19,55,0.6);
+  opacity: 0.7;
+  padding-top: -3000px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: 500px;
+  line-height: 80px;
+  margin-top: 150px;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
